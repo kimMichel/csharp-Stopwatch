@@ -6,7 +6,16 @@ namespace Stopwatch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WelcomeBoard();
+        }
+
+        static void WelcomeBoard()
+        {
+            Console.Clear();
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("-----------Bem vindo-----------");
+            Console.WriteLine("---------Ao Cronometro---------");
+            Console.WriteLine("-------------------------------");
         }
     }
 }
